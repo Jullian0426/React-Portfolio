@@ -9,11 +9,11 @@ import Resume from '../../components/Resume';
 function Header() {
     return (
         <Router>
-            <div className='row'>
+            <div className='row' id='header'>
                 <Navigation />
             </div>
 
-            <div className='container'>
+            <div className='container' id='container'>
                 <Routes>
                     <Route
                         path="/"
