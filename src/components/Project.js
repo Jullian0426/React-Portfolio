@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Content for individual projects with corresponding information using props
 function ProjectCard(props) {
     return (
         <div className="col-sm-12 col-md-6 col-lg-4 my-3">

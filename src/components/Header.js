@@ -6,6 +6,7 @@ import Contact from './Contact';
 import Portfolio from './Portfolio';
 import Resume from './Resume';
 
+// Display the Navbar and the appropriate content depending on the route
 function Header() {
     return (
         <Router>

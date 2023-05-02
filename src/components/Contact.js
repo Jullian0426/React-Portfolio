@@ -46,18 +46,21 @@ function Form() {
         setEmail('');
     };
 
+    // Error handling when losing focus
     const handleInputBlur = (event) => {
         if (!event.target.value) {
             setErrorMessage(`${event.target.name} is required`);
         }
     }
 
+    // Email validation when focus is lost
     const handleInputBlurEmail = (event) => {
         if (!validateEmail(email)) {
             setErrorMessage('Email is invalid');
         }
     }
 
+    // Display Contact content to the page with appropriate props and functionality
     return (
         <form className='content form'>
             <h1>Contact Me</h1>

@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectCard from './Project';
 import portfolio from '../portfolio.json'
 
+// Map through each project and render them on the portfolio page
 function Portfolio() {
     return (
         <section>

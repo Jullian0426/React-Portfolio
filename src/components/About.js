@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Render the about section to the page
 const About = () => {
   return (
     <div className="content">

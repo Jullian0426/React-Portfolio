@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Display logos with links in footer
 function Footer() {
     return (
         <footer className='card-footer d-flex flex-row justify-content-center align-bottom' id='footer'>

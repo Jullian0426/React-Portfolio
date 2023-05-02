@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 
+// Navbar with NavLinks to send the user to corresponding page
 function Navigation() {
     return (
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark">

@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Display Resume page with download link
 const Resume = () => {
   return (
     <div className="content mb-3">
