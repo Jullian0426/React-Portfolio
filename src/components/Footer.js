@@ -2,11 +2,18 @@ import React from 'react';
 
 function Footer() {
     return (
-        <div className='footer' id='footer'>
-            <a href="https://github.com/Jullian0426"><img src="https://icons8.com/icon/12599/github" alt="GitHub" class="icon"/></a>
-            <a href="https://linkedin.com/in/jullian-calkins-9349a6273"><img src="https://icons8.com/icon/98960/linkedin" alt="LinkedIn" class="icon"/></a>
-            <a href="https://stackoverflow.com/users/21731596/miracles413"><img src="https://icons8.com/icon/38518/stack-overflow" alt="Stack Overflow" class="icon"/></a>
-        </div>
+        <footer className='card-footer d-flex flex-row justify-content-center align-bottom' id='footer'>
+                <a href="https://github.com/Jullian0426" className='mx-5'>
+                    <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png" alt="GitHub" className="icon" />
+                </a>
+                <a href="https://linkedin.com/in/jullian-calkins-9349a6273" className='mx-5'>
+                    <img src="https://img.icons8.com/ios-glyphs/50/000000/linkedin.png" alt="LinkedIn" className="icon" />
+                </a>
+                <a href="https://stackoverflow.com/users/21731596/miracles413" className='mx-5'>
+                    <img src="https://img.icons8.com/ios-filled/50/000000/stackoverflow.png" alt="Stack Overflow" className="icon" />
+                </a>
+        </footer>
+
     )
 };
 

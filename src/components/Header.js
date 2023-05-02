@@ -9,12 +9,14 @@ import Resume from './Resume';
 function Header() {
     return (
         <Router>
-            <div className='row' id='header'>
-                <Navigation />
-            </div>
+            <Navigation />
 
             <div className='container' id='container'>
                 <Routes>
+                    <Route
+                        path="/"
+                        element={<About />}
+                    />
                     <Route
                         path="/about"
                         element={<About />}

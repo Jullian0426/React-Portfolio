@@ -5,14 +5,14 @@ import portfolio from '../portfolio.json'
 function Portfolio() {
     return (
         <section>
-            <div className='portfolio'>
-                <h1 className='h1'>My Portfolio</h1>
-            </div>
+            <h1 className='h1 text-center'>My Portfolio</h1>
 
-            <div id='project'>
-                {portfolio.map((project) => {
-                   return <ProjectCard key={project.id} image={project.image} name={project.title} github={project.github} deploy={project.deploy}/>
-                })}
+            <div id='projects' className='content my-3'>
+                <div className='row'>
+                    {portfolio.map((project) => {
+                    return <ProjectCard key={project.id} image={project.image} name={project.title} github={project.github} deploy={project.deploy}/>
+                    })}
+                </div>
             </div>
         </section>
     )

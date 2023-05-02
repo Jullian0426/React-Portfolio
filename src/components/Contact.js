@@ -16,9 +16,9 @@ function Form() {
         const inputValue = target.value;
 
         // Based on the input type, we set the state of either email, message, and name
-        if (inputType === 'email') {
+        if (inputType === 'Email') {
             setEmail(inputValue);
-        } else if (inputType === 'message') {
+        } else if (inputType === 'Message') {
             setMessage(inputValue);
         } else {
             setName(inputValue);
@@ -30,43 +30,48 @@ function Form() {
         e.preventDefault();
 
         // First we check to see if the email is not valid or if the message is empty. If so we set an error message to be displayed on the page.
-        if (!validateEmail(email)) {
+        if (!validateEmail(email) || !name || !email || !message) {
             setErrorMessage('Email is invalid');
             // We want to exit out of this code block if something is wrong so that the user can correct it
+            alert('Submission failed. Please try again.')
             return;
         }
 
-        function isRequired(variable, fieldName) {
-            if (!variable) {
-                setErrorMessage(`${fieldName} is required`);
-                // We want to exit out of this code block if something is wrong so that the user can correct it
-                return;
-            }
-        }
-
-        isRequired(name, 'Name');
-        isRequired(email, 'Email');
-        isRequired(message, 'Message');
-        alert(`${message}`);
+        alert(`Your Message: ${message}`);
 
         // If everything goes according to plan, we want to clear out the input after a successful registration.
+        setErrorMessage('');
         setMessage('');
         setName('');
         setEmail('');
     };
 
+    const handleInputBlur = (event) => {
+        if (!event.target.value) {
+            setErrorMessage(`${event.target.name} is required`);
+        }
+    }
+
+    const handleInputBlurEmail = (event) => {
+        if (!validateEmail(email)) {
+            setErrorMessage('Email is invalid');
+        }
+    }
+
     return (
-        <form className='container form'>
-            <h2>Contact Me</h2>
-            <label for="name">Name:</label>
+        <form className='content form'>
+            <h1>Contact Me</h1>
+            <label htmlFor="Name">Name:</label>
             <div className="input-group mb-3">
                 <input
+                    id="input"
                     value={name}
                     type="text"
                     onChange={handleInputChange}
                     className="form-control"
                     placeholder="Name"
-                    name="name"
+                    name="Name"
+                    onBlur={handleInputBlur}
                 />
                 {errorMessage === 'Name is required' && (
                     <div className="alert alert-danger" role="alert">
@@ -75,15 +80,17 @@ function Form() {
                 )}
             </div>
 
-            <label for="email">Email:</label>
+            <label htmlFor="Email">Email:</label>
             <div className="input-group mb-3">
                 <input
+                    id="input"
                     value={email}
                     type="email"
                     onChange={handleInputChange}
                     className="form-control"
                     placeholder="Email"
-                    name="email"
+                    name="Email"
+                    onBlur={handleInputBlurEmail}
                 />
                 {errorMessage === ('Email is invalid' || 'Email is required') && (
                     <div className="alert alert-danger" role="alert">
@@ -92,13 +99,15 @@ function Form() {
                 )}
             </div>
 
-            <label for="message">Message:</label>
+            <label htmlFor="Message">Message:</label>
             <div className="input-group">
                 <textarea
+                    id="input"
                     value={message}
                     onChange={handleInputChange}
                     className="form-control"
-                    name="message"
+                    name="Message"
+                    onBlur={handleInputBlur}
                 ></textarea>
                 {errorMessage === 'Message is required' && (
                     <div className="alert alert-danger" role="alert">
@@ -107,7 +116,7 @@ function Form() {
                 )}
             </div>
 
-            <button type='button' class="btn btn-primary" onClick={handleFormSubmit}>Submit</button>
+            <button type='button' className="btn btn-outline-dark my-2" onClick={handleFormSubmit}>Submit</button>
         </form>
     );
 };
