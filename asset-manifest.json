@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Jullian0426/React_Portfolio/static/css/main.43ecf391.css",
+    "main.js": "/Jullian0426/React_Portfolio/static/js/main.e0b1e677.js",
+    "index.html": "/Jullian0426/React_Portfolio/index.html",
+    "main.43ecf391.css.map": "/Jullian0426/React_Portfolio/static/css/main.43ecf391.css.map",
+    "main.e0b1e677.js.map": "/Jullian0426/React_Portfolio/static/js/main.e0b1e677.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43ecf391.css",
+    "static/js/main.e0b1e677.js"
+  ]
+}
