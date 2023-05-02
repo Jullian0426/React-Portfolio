@@ -14,7 +14,7 @@ Run ```npm start``` in terminal.
 
 Explore the deployed application at https://jullian0426.github.io/React-Portfolio/
 
-![alt text](./public/assets/images/screenshot.PNG)
+![alt text](./public/assets/images/screenshot.png)
 
 ## License
 
