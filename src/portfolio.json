@@ -2,42 +2,42 @@
     {
         "id": 1,
         "title": "Chum's Bucket",
-        "image": "./assets/images/chum's-bucket.png",
+        "image": "./React_Portfolio/assets/images/chum's-bucket.png",
         "github": "https://github.com/jcherwin/chums-bucket",
         "deploy": "https://lit-citadel-42811.herokuapp.com/"
     },
     {
         "id": 2,
         "title": "Coding Quiz",
-        "image": "./assets/images/coding-quiz.png",
+        "image": "./React_Portfolio/assets/images/coding-quiz.png",
         "github": "https://github.com/Jullian0426/Code_Quiz",
         "deploy": "https://jullian0426.github.io/Code_Quiz/"
     },
     {
         "id": 3,
         "title": "Cards and Cartriges",
-        "image": "./assets/images/cards-and-cartriges.png",
+        "image": "./React_Portfolio/assets/images/cards-and-cartriges.png",
         "github": "https://github.com/gpkarlsson/Pokemon-Cards-and-Games-Info-App",
         "deploy": "https://gpkarlsson.github.io/Pokemon-Cards-and-Games-Info-App//"
     },
     {
         "id": 4,
         "title": "Just Another Text Editor",
-        "image": "./assets/images/jate.png",
+        "image": "./React_Portfolio/assets/images/jate.png",
         "github": "https://github.com/Jullian0426/Text_Editor_PWA",
         "deploy": "https://arcane-peak-16679.herokuapp.com/"
     },
     {
         "id": 5,
         "title": "Password Generator",
-        "image": "./assets/images/password-generator.png",
+        "image": "./React_Portfolio/assets/images/password-generator.png",
         "github": "https://github.com/Jullian0426/Password_Generator",
         "deploy": "https://jullian0426.github.io/Password_Generator/"
     },
     {
         "id": 6,
         "title": "Work Day Scheduler",
-        "image": "./assets/images/scheduler.png",
+        "image": "./React_Portfolio/assets/images/scheduler.png",
         "github": "https://github.com/Jullian0426/Work_Day_Scheduler",
         "deploy": "https://jullian0426.github.io/Work_Day_Scheduler/"
     }

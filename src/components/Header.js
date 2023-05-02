@@ -15,23 +15,23 @@ function Header() {
             <div className='container' id='container'>
                 <Routes>
                     <Route
-                        path="/"
+                        path="/React_Portfolio/"
                         element={<About />}
                     />
                     <Route
-                        path="/about"
+                        path="/React_Portfolio/about"
                         element={<About />}
                     />
                     <Route
-                        path="/portfolio"
+                        path="/React_Portfolio/portfolio"
                         element={<Portfolio />}
                     />
                     <Route
-                        path="/contact"
+                        path="/React_Portfolio/contact"
                         element={<Contact />}
                     />
                     <Route
-                        path="/resume"
+                        path="/React_Portfolio/resume"
                         element={<Resume />}
                     />
                 </Routes>

@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 function Navigation() {
     return (
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-            <a className="navbar-brand" href="/">Jullian Calkins</a>
+            <a className="navbar-brand" href="/React_Portfolio/">Jullian Calkins</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -13,16 +13,16 @@ function Navigation() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
-                        <NavLink to="/about" className="nav-link">About Me</NavLink>
+                        <NavLink to="/React_Portfolio/about" className="nav-link">About Me</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/portfolio" className="nav-link">Portfolio</NavLink>
+                        <NavLink to="/React_Portfolio/portfolio" className="nav-link">Portfolio</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/contact" className="nav-link">Contact</NavLink>
+                        <NavLink to="/React_Portfolio/contact" className="nav-link">Contact</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/resume" className="nav-link">Resume</NavLink>
+                        <NavLink to="/React_Portfolio/resume" className="nav-link">Resume</NavLink>
                     </li>
                 </ul>
             </div>
