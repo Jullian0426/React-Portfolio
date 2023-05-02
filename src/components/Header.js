@@ -16,7 +16,7 @@ function Header() {
             <div className='container' id='container'>
                 <Routes>
                     <Route
-                        path="/"
+                        path="/about"
                         element={<About />}
                     />
                     <Route
