@@ -8,10 +8,10 @@
     },
     {
         "id": 2,
-        "title": "Coding Quiz",
-        "image": "assets/images/coding-quiz.png",
-        "github": "https://github.com/Jullian0426/Code_Quiz",
-        "deploy": "https://jullian0426.github.io/Code_Quiz/"
+        "title": "2JS Games",
+        "image": "assets/images/2js-games.png",
+        "github": "https://github.com/jcherwin/2js-games",
+        "deploy": "https://jjs-games.herokuapp.com"
     },
     {
         "id": 3,
