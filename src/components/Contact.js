@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import validateEmail from '../utils/helpers';
+import emailjs from 'emailjs-com';
 
 function Form() {
     // Create state variables for the fields in the form
@@ -29,22 +30,27 @@ function Form() {
         // Preventing the default behavior of the form submit (which is to refresh the page)
         e.preventDefault();
 
-        // First we check to see if the email is not valid or if the message is empty. If so we set an error message to be displayed on the page.
+        // Check for errors first
         if (!validateEmail(email) || !name || !email || !message) {
-            setErrorMessage('Email is invalid');
-            // We want to exit out of this code block if something is wrong so that the user can correct it
             alert('Submission failed. Please try again.')
             return;
         }
-
-        alert(`Your Message: ${message}`);
-
-        // If everything goes according to plan, we want to clear out the input after a successful registration.
+        
         setErrorMessage('');
-        setMessage('');
-        setName('');
-        setEmail('');
+
+        emailjs.send(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, { name, email, message }, process.env.REACT_APP_EMAILJS_PUBLIC_KEY)
+            .then((response) => {
+                console.log('SUCCESS!', response.status, response.text);
+                alert('Your message was sent successfully');
+                setMessage('');
+                setName('');
+                setEmail('');
+            }, (error) => {
+                console.log('FAILED...', error);
+                alert('Failed to send message. Please try again later');
+            });
     };
+
 
     // Error handling when losing focus
     const handleInputBlur = (event) => {
