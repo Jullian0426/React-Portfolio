@@ -5,7 +5,7 @@ import portfolio from '../portfolio.json'
 // Map through each project and render them on the portfolio page
 function Portfolio() {
     return (
-        <section>
+        <section className="content">
             <h1 className='h1 text-center'>My Portfolio</h1>
 
             <div id='projects' className='content my-3'>

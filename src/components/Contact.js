@@ -119,7 +119,7 @@ function Form() {
                 )}
             </div>
 
-            <button type='button' className="btn btn-outline-dark my-2" onClick={handleFormSubmit}>Submit</button>
+            <button type='button' className="btn btn-outline-light my-2" onClick={handleFormSubmit}>Submit</button>
         </form>
     );
 };

@@ -1,15 +1,45 @@
 body {
-    background-color: #07090F;
+    background-color: #343A40;
+    color: #D1CDC7;
 }
 
 .App {
-    background: #736F72;
+    background: #555C60;
     position: relative;
     min-height: 70vh;
 }
 
+.img-thumbnail {
+    background-color: #181A1B;
+    border: #181A1B;
+}
+
 .card {
-    background-color: #9A8F97;
+    background-color: #626a6e;
+    position: relative;
+}
+
+.card-img-container {
+    padding-bottom: 56.25%; /* for 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.form-control {
+    background-color: #181A1B;
+    color: #5B5852;
+    border-color: #181A1B;
 }
 
 .blue {
@@ -21,7 +51,7 @@ body {
 }
 
 #footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
