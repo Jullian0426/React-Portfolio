@@ -4,14 +4,14 @@
         "title": "Chum's Bucket",
         "image": "assets/images/chum's-bucket.png",
         "github": "https://github.com/jcherwin/chums-bucket",
-        "deploy": "https://lit-citadel-42811.herokuapp.com/"
+        "deploy": "https://nameless-depths-67089-43049f5cbd58.herokuapp.com/"
     },
     {
         "id": 2,
         "title": "2JS Games",
         "image": "assets/images/2js-games.png",
         "github": "https://github.com/jcherwin/2js-games",
-        "deploy": "https://jjs-games.herokuapp.com"
+        "deploy": "https://tranquil-ocean-88094-2a920532d6fb.herokuapp.com"
     },
     {
         "id": 3,
