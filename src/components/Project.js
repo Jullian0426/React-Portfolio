@@ -6,12 +6,15 @@ function ProjectCard(props) {
         <div className="col-sm-12 col-md-6 col-lg-4 my-3">
             <div className="card">
                 <div className="card-img-container">
-                    <img className="card-img-top" src={props.image} alt={props.title}/>
+                    <img className="card-img-top" src={props.image} alt={props.name}/>
                 </div>
                 <div className="card-body">
-                    <h5 className="card-title">{props.title}</h5>
+                    <h5 className="card-title">{props.name}</h5>
+                    <p>{props.description}</p>
                     <a href={props.github} className="btn btn-outline-light">GitHub</a>
-                    <a href={props.deploy} className="btn btn-outline-light ml-2">Deployed App</a>
+                    {props.deploy !== "N/A" && 
+                        <a href={props.deploy} className="btn btn-outline-light ml-2">Deployed App</a>
+                    }
                 </div>
             </div>
         </div>

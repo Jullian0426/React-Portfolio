@@ -11,7 +11,15 @@ function Portfolio() {
             <div id='projects' className='content my-3'>
                 <div className='row'>
                     {portfolio.map((project) => {
-                    return <ProjectCard key={project.id} image={project.image} name={project.title} github={project.github} deploy={project.deploy}/>
+                        return <ProjectCard
+                            key={project.id}
+                            image={project.image}
+                            name={project.title}
+                            github={project.github}
+                            deploy={project.deploy}
+                            description={project.description}
+                        />
+
                     })}
                 </div>
             </div>

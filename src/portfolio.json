@@ -1,44 +1,34 @@
 [
     {
         "id": 1,
-        "title": "Chum's Bucket",
-        "image": "assets/images/chum's-bucket.png",
-        "github": "https://github.com/jcherwin/chums-bucket",
-        "deploy": "https://nameless-depths-67089-43049f5cbd58.herokuapp.com/"
-    },
-    {
-        "id": 2,
         "title": "2JS Games",
         "image": "assets/images/2js-games.png",
         "github": "https://github.com/jcherwin/2js-games",
-        "deploy": "https://tranquil-ocean-88094-2a920532d6fb.herokuapp.com"
+        "deploy": "https://tranquil-ocean-88094-2a920532d6fb.herokuapp.com",
+        "description": "Developed a real-time Tic-Tac-Toe game using React, Apollo Client, and GraphQL, enhancing expertise in real-time applications and React state management. Features: smooth user experience, shareable game links, popup notifications. Hosted on Heroku."
+    },
+    {
+        "id": 2,
+        "title": "Chum's Bucket",
+        "image": "assets/images/chum's-bucket.png",
+        "github": "https://github.com/jcherwin/chums-bucket",
+        "deploy": "https://nameless-depths-67089-43049f5cbd58.herokuapp.com/",
+        "description": "Built an e-commerce platform for a restaurant using MVC framework, featuring product selection, persistent shopping carts, and order placement simulation. Applied Sequelize ORM for model setup and associations, Handlebars for dynamic HTML, and front-end JavaScript for back-end communication."
     },
     {
         "id": 3,
         "title": "Cards and Cartriges",
         "image": "assets/images/cards-and-cartriges.png",
         "github": "https://github.com/gpkarlsson/Pokemon-Cards-and-Games-Info-App",
-        "deploy": "https://gpkarlsson.github.io/Pokemon-Cards-and-Games-Info-App//"
+        "deploy": "https://gpkarlsson.github.io/Pokemon-Cards-and-Games-Info-App//",
+        "description": "This project combines data from the PokeAPI and the Pokemon TCG Developers API to provide comprehensive information about both video game Pokemon and their corresponding trading cards. It offers a one-stop solution for avid Pokemon enthusiasts, showcasing the utility of APIs and the challenges and benefits of collaborative development."
     },
     {
         "id": 4,
-        "title": "Just Another Text Editor",
-        "image": "assets/images/jate.png",
-        "github": "https://github.com/Jullian0426/Text_Editor_PWA",
-        "deploy": "https://arcane-peak-16679.herokuapp.com/"
-    },
-    {
-        "id": 5,
-        "title": "Password Generator",
-        "image": "assets/images/password-generator.png",
-        "github": "https://github.com/Jullian0426/Password_Generator",
-        "deploy": "https://jullian0426.github.io/Password_Generator/"
-    },
-    {
-        "id": 6,
-        "title": "Work Day Scheduler",
-        "image": "assets/images/scheduler.png",
-        "github": "https://github.com/Jullian0426/Work_Day_Scheduler",
-        "deploy": "https://jullian0426.github.io/Work_Day_Scheduler/"
+        "title": "Employee BadgeMaker",
+        "image": "assets/images/badge.png",
+        "github": "https://github.com/Jullian0426/Employee_BadgeMaker",
+        "deploy": "N/A",
+        "description": "Created a C# and .NET command-line application to automate security badge creation for a mock startup, CatWorx. Integrated Random User Generator API for employee data and SkiaSharp package for badge design."
     }
 ]
