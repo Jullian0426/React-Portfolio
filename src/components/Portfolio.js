@@ -9,7 +9,7 @@ function Portfolio() {
             <h1 className='h1 text-center'>My Portfolio</h1>
 
             <div id='projects' className='content my-3'>
-                <div className='row'>
+                <div className='row justify-content-center'>
                     {portfolio.map((project) => {
                         return <ProjectCard
                             key={project.id}
@@ -19,7 +19,6 @@ function Portfolio() {
                             deploy={project.deploy}
                             description={project.description}
                         />
-
                     })}
                 </div>
             </div>
