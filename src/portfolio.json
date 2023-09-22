@@ -1,34 +1,42 @@
 [
     {
         "id": 1,
-        "title": "2JS Games",
+        "title": "React.js",
         "image": "assets/images/2js-games.png",
         "github": "https://github.com/jcherwin/2js-games",
         "deploy": "https://tranquil-ocean-88094-2a920532d6fb.herokuapp.com",
-        "description": "Developed a real-time Tic-Tac-Toe game using React, Apollo Client, and GraphQL, enhancing expertise in real-time applications and React state management. Features: smooth user experience, shareable game links, popup notifications. Hosted on Heroku."
+        "description": "2JS Games: Developed a real-time Tic-Tac-Toe game using React, Apollo Client, and GraphQL, enhancing expertise in real-time applications and React state management. Features: smooth user experience, shareable game links, popup notifications. Hosted on Heroku."
     },
     {
         "id": 2,
-        "title": "Chum's Bucket",
-        "image": "assets/images/chum's-bucket.png",
-        "github": "https://github.com/jcherwin/chums-bucket",
-        "deploy": "https://nameless-depths-67089-43049f5cbd58.herokuapp.com/",
-        "description": "Built an e-commerce platform for a restaurant using MVC framework, featuring product selection, persistent shopping carts, and order placement simulation. Applied Sequelize ORM for model setup and associations, Handlebars for dynamic HTML, and front-end JavaScript for back-end communication."
+        "title": "Spring Boot CRUD Application",
+        "image": "assets/images/just-tech-news.png",
+        "github": "https://github.com/Jullian0426/tech-news-java-api",
+        "deploy": "https://cc-java-api-102-1961f5472c2e.herokuapp.com/",
+        "description": "Just Tech News: This project demonstrates the development of a full-stack Spring Boot application, integrating Spring Data JPA, MySQL, Thymeleaf, and showcasing CRUD operations. Deployed on Heroku, it highlights the seamless blend of Java and JavaScript, and exemplifies a well-structured approach to building scalable and maintainable applications."
     },
     {
         "id": 3,
-        "title": "Cards and Cartriges",
-        "image": "assets/images/cards-and-cartriges.png",
-        "github": "https://github.com/gpkarlsson/Pokemon-Cards-and-Games-Info-App",
-        "deploy": "https://gpkarlsson.github.io/Pokemon-Cards-and-Games-Info-App//",
-        "description": "This project combines data from the PokeAPI and the Pokemon TCG Developers API to provide comprehensive information about both video game Pokemon and their corresponding trading cards. It offers a one-stop solution for avid Pokemon enthusiasts, showcasing the utility of APIs and the challenges and benefits of collaborative development."
-    },
-    {
-        "id": 4,
-        "title": "Employee BadgeMaker",
+        "title": "C# and .NET Framework",
         "image": "assets/images/badge.png",
         "github": "https://github.com/Jullian0426/Employee_BadgeMaker",
         "deploy": "N/A",
-        "description": "Created a C# and .NET command-line application to automate security badge creation for a mock startup, CatWorx. Integrated Random User Generator API for employee data and SkiaSharp package for badge design."
+        "description": "Employee BadgeMaker: Created a C# and .NET command-line application to automate security badge creation for a mock startup, CatWorx. Integrated Random User Generator API for employee data and SkiaSharp package for badge design."
+    },
+    {
+        "id": 4,
+        "title": "MVC Framework",
+        "image": "assets/images/chum's-bucket.png",
+        "github": "https://github.com/jcherwin/chums-bucket",
+        "deploy": "https://nameless-depths-67089-43049f5cbd58.herokuapp.com/",
+        "description": "Chum's Bucket: Built an e-commerce platform for a restaurant using MVC framework, featuring product selection, persistent shopping carts, and order placement simulation. Applied Sequelize ORM for model setup and associations, Handlebars for dynamic HTML, and front-end JavaScript for back-end communication."
+    },
+    {
+        "id": 5,
+        "title": "API Implementation",
+        "image": "assets/images/cards-and-cartriges.png",
+        "github": "https://github.com/gpkarlsson/Pokemon-Cards-and-Games-Info-App",
+        "deploy": "https://gpkarlsson.github.io/Pokemon-Cards-and-Games-Info-App//",
+        "description": "Pokemon Cards and Cartriges: This project combines data from the PokeAPI and the Pokemon TCG Developers API to provide comprehensive information about both video game Pokemon and their corresponding trading cards. It offers a one-stop solution for avid Pokemon enthusiasts, showcasing the utility of APIs and the challenges and benefits of collaborative development."
     }
 ]
