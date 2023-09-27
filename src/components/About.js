@@ -12,7 +12,7 @@ const About = () => {
             <p style={{"textIndent": "40px"}}>
                 What sets me apart is not just my technical skills, but also my determination to learn and improve. I believe in a lifelong learning approach to my career and I'm not afraid to dive into unfamiliar territories. Whether it's a new programming language, a framework, or a design pattern, I'm eager to master it.
             </p>
-            <p style={{"textIndent": "40px"}}>
+            <p style={{"textIndent": "40px", "margin-bottom": "60px"}}>
                 I'm not just a coder, but a problem solver. I take great satisfaction in resolving complex coding challenges and improving the usability and efficiency of web applications. Above all, my goal is to contribute to a team where my passion for coding, my willingness to learn, and my ability to solve problems can make a real difference.
             </p>
         </div>
