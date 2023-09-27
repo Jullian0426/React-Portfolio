@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className="content">
             <h1 className='text-center'>About Me</h1>
-            <img src='assets/images/photo.jpg' alt='Jullian' className='img-thumbnail rounded mx-auto d-block my-3' style={{ "width": "170px", "height": "200px" }} />
+            <img src='assets/images/photo.jpg' alt='Jullian' className='img-thumbnail rounded mx-auto d-block my-3' style={{ "width": "20vw" }} />
             <p style={{"textIndent": "40px"}}>
                 Hello, I'm Jullian! As a recent graduate of a Full-Stack Web Development Bootcamp, I've discovered a passion for creating efficient, clean, and effective code. I'm adept at bringing together various components into a cohesive, fully functioning website, and I'm always excited to take on new challenges that push my abilities.
             </p>
